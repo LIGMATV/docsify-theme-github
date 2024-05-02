@@ -431,7 +431,7 @@ body.sticky .sidebar-toggle {
   list-style-type: none;
 }
 body.close .sidebar {
-  transform: translateX(-300px);
+  transform: translateX(-270px);
 }
 body.close .sidebar-toggle {
   width: auto;
@@ -465,7 +465,7 @@ body.close .content {
     overflow-x: hidden;
   }
   .sidebar {
-    left: -300px;
+    left: -270px;
     transition: transform 250ms ease-out;
   }
   .content {
@@ -485,16 +485,16 @@ body.close .content {
     padding: 10px 10px 8px;
   }
   body.close .sidebar {
-    transform: translateX(300px);
+    transform: translateX(270px);
   }
   body.close .sidebar-toggle {
     background-color: rgba(255, 255, 255, 0.89);
     transition: 1s background-color;
-    width: 284px;
+    width: 254px;
     padding: 10px 10px 8px;
   }
   body.close .content {
-    transform: translateX(300px);
+    transform: translateX(270px);
   }
   body.close .app-nav,
   body.close .github-corner {
