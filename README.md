@@ -8,12 +8,12 @@ The minimal amount of CSS to replicate the GitHub Markdown style
 # Install
  
 ```css
-<link rel="stylesheet" href="//raw.githack.com/LIGMATV/docsify-theme-github/main/github.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIGMATV/docsify-theme-github/github.css">
 ```
 
 > [!NOTE]
 > Just to be safe, please use your downloaded version.
-> You can download the navbar-fixed.css <a href="https://raw.githack.com/LIGMATV/docsify-theme-github/main/github.css" download>here</a>.
+> You can download the navbar-fixed.css <a href="https://cdn.jsdelivr.net/gh/LIGMATV/docsify-theme-github/github.css" download>here</a>.
 
 Every ⭐ star is expensive. If you can star this repository, you absolutely rich!
 
