@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//raw.githack.com/LIGMATV/docsify-theme-github/main/github.css">
+  <link rel="stylesheet" href="github.css">
 </head>
 <body>
   <div id="app"></div>
@@ -12,18 +12,19 @@
 <script>
   window.$docsify = {
     alias: {
+          '/(.*)':
+            'https://raw.githubusercontent.com/docsifyjs/docsify/develop/docs/$1',
           '.*?/awesome':
             'https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md',
           '.*?/changelog':
             'https://raw.githubusercontent.com/docsifyjs/docsify/master/CHANGELOG.md',
-          '/.*/_navbar.md': '/_navbar.md',
-          '/es/(.*)':
+          '.*?/es/(.*)':
             'https://raw.githubusercontent.com/docsifyjs/docs-es/master/$1',
-          '/de-de/(.*)':
+          '.*?/de-de/(.*)':
             'https://raw.githubusercontent.com/docsifyjs/docs-de/master/$1',
-          '/ru-ru/(.*)':
+          '.*?/ru-ru/(.*)':
             'https://raw.githubusercontent.com/docsifyjs/docs-ru/master/$1',
-          '/zh-cn/(.*)':
+          '.*?/zh-cn/(.*)':
             'https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1',
         },
     coverpage: true,
