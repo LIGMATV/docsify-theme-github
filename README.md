@@ -21,7 +21,7 @@ The minimal amount of CSS to replicate the GitHub Markdown style
 
 # Showcase
 
-- [LIGMATV](https://ligmatv.is-a.dev/) - Home of my open blogs 📖.
+- [LIGMATV](https://ligmatv.is-a.dev/Docs-Docsify/) - Home of my open blogs 📖.
 
 ---
 
